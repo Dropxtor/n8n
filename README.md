@@ -39,10 +39,6 @@ Vos workflows et credentials sont persistés dans ~/.n8n.
 ### 7.Supprimer
   
 ```bash
-nano clean-n8n.sh
-```
-
-```bash
 chmod +x clean-n8n.sh
 ```
 
