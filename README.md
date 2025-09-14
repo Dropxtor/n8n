@@ -35,4 +35,17 @@ Vous obtiendrez une URL sécurisée du type https://abc123.ngrok.io.
 Accéder à n8n depuis votre navigateur : http://VOTRE_IP:5678 ou l’URL ngrok.
 
 Vos workflows et credentials sont persistés dans ~/.n8n.
+ 
+### 7.Supprimer
+  
+```bash
+nano clean-n8n.sh
+```
 
+```bash
+chmod +x clean-n8n.sh
+```
+
+```bash
+./clean-n8n.sh
+```
