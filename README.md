@@ -49,3 +49,13 @@ chmod +x clean-n8n.sh
 ```bash
 ./clean-n8n.sh
 ```
+### 8. Supplementaires
+
+##### Détacher la session (laisser tourner en arrière-plan)
+
+CTRL + A puis D
+##### Revenir dans la session
+
+```bash
+screen -r n8n
+```
