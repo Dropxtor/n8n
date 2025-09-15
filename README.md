@@ -10,8 +10,12 @@
 ### 1. Cloner le dépôt :
 
 ```bash
-git clone https://github.com/Dropxtor/n8n-vps-setup.git
-cd n8n-vps-setup
+git clone https://github.com/Dropxtor/n8n.git
+cd n8n
+```
+créer une session screen
+```bash
+screen -S n8n
 ```
 ### 2. Executer
 ```bash
