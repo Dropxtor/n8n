@@ -59,3 +59,19 @@ CTRL + A puis D
 ```bash
 screen -r n8n
 ```
+
+Vérifiez les conteneurs existants :
+```bash
+sudo docker ps -a  # Liste tous les conteneurs (en cours ou arrêtés)
+```
+Cherchez le conteneur avec l'ID dc2e243255b3... ou nommé "n8n".
+
+Arrêtez le conteneur existant (si en cours) :
+```bash
+sudo docker stop n8n  # Ou remplacez "n8n" par l'ID si nécessaire
+```
+Supprimez le conteneur existant :bash
+```bash
+sudo docker rm n8n  # Cela libère le nom
+```
+
